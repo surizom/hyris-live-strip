@@ -6,6 +6,7 @@ import "./StripContainer.css";
 const StripContainer = () => (
   <div className="container">
     <LogoContainer />
+    <div className="separator">|</div>
     <Strip />
   </div>
 );
