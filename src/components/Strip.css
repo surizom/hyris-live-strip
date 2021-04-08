@@ -1,4 +1,6 @@
 .strip {
-  background-color: rgba(0, 0, 255, 0.7);
+  background-color: rgba(41, 61, 234, 0.3);
   flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
 }
