@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  left: 100px;
+  background-color: black;
+  opacity: 0.75;
+  bottom: 80px;
+}
