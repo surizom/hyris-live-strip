@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hyris-live-strip/static/css/main.8aab66e1.chunk.css",
-    "main.js": "/hyris-live-strip/static/js/main.9e664e48.chunk.js",
-    "main.js.map": "/hyris-live-strip/static/js/main.9e664e48.chunk.js.map",
+    "main.css": "/hyris-live-strip/static/css/main.7b2b3ee7.chunk.css",
+    "main.js": "/hyris-live-strip/static/js/main.24b90654.chunk.js",
+    "main.js.map": "/hyris-live-strip/static/js/main.24b90654.chunk.js.map",
     "runtime-main.js": "/hyris-live-strip/static/js/runtime-main.cdaf95c6.js",
     "runtime-main.js.map": "/hyris-live-strip/static/js/runtime-main.cdaf95c6.js.map",
     "static/js/2.7f3a69d3.chunk.js": "/hyris-live-strip/static/js/2.7f3a69d3.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.ec8ec546.chunk.js": "/hyris-live-strip/static/js/3.ec8ec546.chunk.js",
     "static/js/3.ec8ec546.chunk.js.map": "/hyris-live-strip/static/js/3.ec8ec546.chunk.js.map",
     "index.html": "/hyris-live-strip/index.html",
-    "static/css/main.8aab66e1.chunk.css.map": "/hyris-live-strip/static/css/main.8aab66e1.chunk.css.map",
+    "static/css/main.7b2b3ee7.chunk.css.map": "/hyris-live-strip/static/css/main.7b2b3ee7.chunk.css.map",
     "static/js/2.7f3a69d3.chunk.js.LICENSE.txt": "/hyris-live-strip/static/js/2.7f3a69d3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cdaf95c6.js",
     "static/js/2.7f3a69d3.chunk.js",
-    "static/css/main.8aab66e1.chunk.css",
-    "static/js/main.9e664e48.chunk.js"
+    "static/css/main.7b2b3ee7.chunk.css",
+    "static/js/main.24b90654.chunk.js"
   ]
 }
