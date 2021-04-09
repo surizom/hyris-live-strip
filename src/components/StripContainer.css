@@ -4,13 +4,13 @@
   align-items: center;
   position: absolute;
   right: 0;
-  left: 160px;
+  left: 0;
   opacity: 0.75;
   bottom: 80px;
   background-color: black;
 }
 .separator {
   font-size: 44px;
-  line-height : 44px;
-  align-self:flex-start;
+  line-height: 44px;
+  align-self: flex-start;
 }

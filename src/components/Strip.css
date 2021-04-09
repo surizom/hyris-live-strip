@@ -1,8 +1,13 @@
 .strip {
-
   flex-grow: 1;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+
+  /* duration : size / 80 */
+  --duration: 120s;
+  animation: slide linear var(--duration) infinite;
 
   display: flex;
   flex-direction: row;
@@ -11,6 +16,16 @@
   font-size: 25px;
 }
 
-.message{
+@keyframes slide {
+  0% {
+    margin-left: 1800px;
+  }
+  100% {
+    margin-left: -9000px;
+  }
+}
+
+.message {
   margin: 0 10px;
+  text-align: center;
 }
