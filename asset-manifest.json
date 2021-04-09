@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hyris-live-strip/static/css/main.73aa75c6.chunk.css",
-    "main.js": "/hyris-live-strip/static/js/main.bb8f5f2e.chunk.js",
-    "main.js.map": "/hyris-live-strip/static/js/main.bb8f5f2e.chunk.js.map",
+    "main.css": "/hyris-live-strip/static/css/main.0d3dd29c.chunk.css",
+    "main.js": "/hyris-live-strip/static/js/main.601834c6.chunk.js",
+    "main.js.map": "/hyris-live-strip/static/js/main.601834c6.chunk.js.map",
     "runtime-main.js": "/hyris-live-strip/static/js/runtime-main.a8c325a1.js",
     "runtime-main.js.map": "/hyris-live-strip/static/js/runtime-main.a8c325a1.js.map",
-    "static/js/2.fdc0cac7.chunk.js": "/hyris-live-strip/static/js/2.fdc0cac7.chunk.js",
-    "static/js/2.fdc0cac7.chunk.js.map": "/hyris-live-strip/static/js/2.fdc0cac7.chunk.js.map",
+    "static/js/2.cd0b458f.chunk.js": "/hyris-live-strip/static/js/2.cd0b458f.chunk.js",
+    "static/js/2.cd0b458f.chunk.js.map": "/hyris-live-strip/static/js/2.cd0b458f.chunk.js.map",
     "static/js/3.ed3c6f5d.chunk.js": "/hyris-live-strip/static/js/3.ed3c6f5d.chunk.js",
     "static/js/3.ed3c6f5d.chunk.js.map": "/hyris-live-strip/static/js/3.ed3c6f5d.chunk.js.map",
     "index.html": "/hyris-live-strip/index.html",
-    "static/css/main.73aa75c6.chunk.css.map": "/hyris-live-strip/static/css/main.73aa75c6.chunk.css.map",
-    "static/js/2.fdc0cac7.chunk.js.LICENSE.txt": "/hyris-live-strip/static/js/2.fdc0cac7.chunk.js.LICENSE.txt"
+    "static/css/main.0d3dd29c.chunk.css.map": "/hyris-live-strip/static/css/main.0d3dd29c.chunk.css.map",
+    "static/js/2.cd0b458f.chunk.js.LICENSE.txt": "/hyris-live-strip/static/js/2.cd0b458f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a8c325a1.js",
-    "static/js/2.fdc0cac7.chunk.js",
-    "static/css/main.73aa75c6.chunk.css",
-    "static/js/main.bb8f5f2e.chunk.js"
+    "static/js/2.cd0b458f.chunk.js",
+    "static/css/main.0d3dd29c.chunk.css",
+    "static/js/main.601834c6.chunk.js"
   ]
 }
