@@ -1,27 +1,53 @@
 import React, { useEffect, useRef, useState } from "react";
+import styled, { keyframes } from "styled-components";
 import "./Strip.css";
 
 const messages = [
   "Envoyez vos msg au 102910921",
   "Lorem ipsum dolor sit amet",
-  "Consectetur adipiscing elit",
-  "deserunt mollit anim id est laborum",
-  "sed do eiusmod tempor incididunt ut labore et ",
-  "deserunt mollit anim id est labdazzdorum",
-  "Envoyez vos msg au 102910921212",
-  "quis nostrud exercitation ullamco laboris nisi ut aliquip",
-  "ex ea commodo consequat. Duis aute irure dolor in reprehenderit i",
   "deserunt mollit anim id est laborzaddazdzaum",
   "Envoyez vos msg au 10291011921",
 ];
 
 const SPEED = 80;
 
+const rotate = (width: number) => keyframes`
+  from {
+    margin-left: 1800px;
+  }
+  to {
+    margin-left: -${width + 1800}px;
+  }
+`;
+
+interface AnimatedStripProps {
+  width: number;
+  duration: number;
+}
+
+const AnimatedStrip = styled.div`
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  margin-left: 1800px;
+
+  animation: ${(props: AnimatedStripProps) => rotate(props.width)} linear
+    ${(props: AnimatedStripProps) => props.duration}s;
+
+  display: flex;
+  flex-direction: row;
+
+  padding: 10px 5px;
+  font-size: 25px;
+`;
+
 const Strip = () => {
   const [width, setWidth] = useState(0);
   const animationInfo = {
-    length: width,
-    duration: width / SPEED,
+    width,
+    duration: (width + 3600) / SPEED,
   };
 
   const ref = useRef(null);
@@ -39,7 +65,7 @@ const Strip = () => {
   console.log(animationInfo);
 
   return (
-    <div ref={ref} className="strip">
+    <AnimatedStrip width={animationInfo.width} duration={animationInfo.duration} ref={ref}>
       {messages.map((message) => (
         <div className="message" key={message}>
           <p className="sub-message">{message.toUpperCase()}</p>
@@ -52,7 +78,7 @@ const Strip = () => {
           </p>
         </div>
       ))}
-    </div>
+    </AnimatedStrip>
   );
 };
 
