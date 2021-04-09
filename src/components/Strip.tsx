@@ -31,7 +31,14 @@ const Strip = () => {
     <div className="strip">
       {messages.map((message) => (
         <div className="message" key={message}>
-          <div>{message.toUpperCase()}</div>
+          <p className="sub-message">{message.toUpperCase()}</p>
+          <p className="sub-message">
+            <img
+              className="sub-message-img"
+              src={`${process.env.PUBLIC_URL}/favicon.png`}
+              alt="logo hyris"
+            />
+          </p>
         </div>
       ))}
     </div>

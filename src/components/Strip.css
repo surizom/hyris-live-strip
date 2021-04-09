@@ -27,6 +27,17 @@
 }
 
 .message {
-  margin: 0 10px;
+  margin: -25px 0;
   text-align: center;
+  display: inline-flex;
+}
+
+.sub-message {
+  padding: 0 10px;
+}
+
+.sub-message-img {
+  display: inline;
+  height: 25px;
+  margin: auto 0;
 }
