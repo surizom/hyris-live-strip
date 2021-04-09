@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Strip.css";
 
 const messages = [
@@ -12,23 +12,34 @@ const messages = [
   "quis nostrud exercitation ullamco laboris nisi ut aliquip",
   "ex ea commodo consequat. Duis aute irure dolor in reprehenderit i",
   "deserunt mollit anim id est laborzaddazdzaum",
-  "n voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-  "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia",
-  "deserunt mollit anim id est laboazdadzrum",
   "Envoyez vos msg au 10291011921",
 ];
 
+const SPEED = 80;
+
 const Strip = () => {
+  const [width, setWidth] = useState(0);
   const animationInfo = {
-    length: messages.join(",").length * 15,
-    duration: (messages.join(",").length * 15) / 80,
+    length: width,
+    duration: width / SPEED,
   };
+
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const { current } = ref;
+
+    if (current != null) {
+      // @ts-ignore
+      setWidth(current.scrollWidth);
+    }
+  }, [ref]);
 
   // eslint-disable-next-line
   console.log(animationInfo);
 
   return (
-    <div className="strip">
+    <div ref={ref} className="strip">
       {messages.map((message) => (
         <div className="message" key={message}>
           <p className="sub-message">{message.toUpperCase()}</p>
