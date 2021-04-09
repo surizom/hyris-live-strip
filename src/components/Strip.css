@@ -4,10 +4,11 @@
   overflow: scroll;
   scrollbar-width: none;
   scroll-behavior: smooth;
+  margin-left: 1800px;
 
   /* duration : size / 80 */
   --duration: 120s;
-  animation: slide linear var(--duration) infinite;
+  animation: slide linear var(--duration);
 
   display: flex;
   flex-direction: row;
