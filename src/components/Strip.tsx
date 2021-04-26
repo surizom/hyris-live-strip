@@ -2,22 +2,12 @@ import React, { useEffect, useRef, useState } from "react";
 import styled, { keyframes } from "styled-components";
 import "./Strip.css";
 
-const MESSAGE_INFO = "Envoyez vos messages sur Facebook à Laper SonnaKontakter : shorturl.at/evCD5";
+const MESSAGE_INFO =
+  'Envoyez vos messages au profil facebook : "Laper SonnaKontakter" - shorturl.at/evCD5';
 
-const messages = [
-  MESSAGE_INFO,
-  "Message 1 : trucbeuobaoeu",
-  "Message 2 : BITEEE",
-  "Message 3: COUIleleeee",
-  "Message 4 : bazidpidzadzazad",
-  "Message 5 : bazidpiddzadzadzazadzazad",
-  "Message 6 : bazidpidzadzazad",
-  MESSAGE_INFO,
-  MESSAGE_INFO,
-  MESSAGE_INFO,
-];
+const messages = [MESSAGE_INFO, MESSAGE_INFO];
 
-const SPEED = 80;
+const SPEED = 90;
 
 const rotate = (width: number) => keyframes`
   from {
